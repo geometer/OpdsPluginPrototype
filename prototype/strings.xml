@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="title">%(NAME)s</string>
+	<string name="missing_fbreader_dialog_title">FBReader</string>
+	<string name="missing_fbreader_dialog_message">FBReader is not installed. Install right now?</string>
+</resources>
