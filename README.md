@@ -15,13 +15,13 @@ How to start
 2. Run script `generate_project.py` script to create your project tree
 
   Script **required** parameters:
-  *  -d DIR      directory where to create the project
-  *  -p PACKAGE  java package prefix, e.g.: com.mycatalog
-  *  -n NAME     name for android launcher, e.g.: My Catalog
-  *  -u URL      catalog URL, e.g.: http://mycatalog.com/opds.xml
+  *  `-d DIR      ` directory where to create the project
+  *  `-p PACKAGE  ` java package prefix, e.g.: com.mycatalog
+  *  `-n NAME     ` name for android launcher, e.g.: My Catalog
+  *  `-u URL      ` OPDS catalog URL, e.g.: http://mycatalog.com/opds.xml
 
   Script **optional** parameter:
-  *  -i ICON     icon file for android launcher
+  *  `-i ICON     ` PNG icon file for android launcher
 
 3. Create build.xml file for your project using `android update project` command, then build it using `ant release`
 *OR* use your preferred IDE to build the project
