@@ -17,7 +17,7 @@ public class CatalogActivity extends Activity {
 		try {
 			startActivity(new Intent(
 				"android.fbreader.action.OPEN_NETWORK_CATALOG",
-				Uri.parse("http://catalog.site.com/catalog/opds.xml")
+				Uri.parse(new CatalogInfo().url())
 			)
 				.putExtra("SingleCatalog", true)
 				.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK)
